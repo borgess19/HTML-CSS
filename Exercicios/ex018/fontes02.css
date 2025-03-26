@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'filxgirl' ;
+    src: url(fontes/Filxgirl.TTF) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+    /*Tipos de format()
+    - opentype (otf)
+    - truetype (ttf)
+    - embedded-opentype
+    - truetype-aat (Apple Advanced Typography)
+    - svg
+    */
+}
+body {
+    font-family: 'filxgirl', Helvetica, sans-serif;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'filxgirl', Times, serif;
+    font-size: 3em;
+}
