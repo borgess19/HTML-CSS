@@ -17,6 +17,14 @@ width: 500px;
 border-collapse: collapse;
 }
 
+tbody > tr:nth-child(odd) { /* 2n - 1*/
+    background-color: #a9a9a95e;
+}
+
+tbody > tr:nth-child(even) { /* 2n */
+    background-color: #80808073;
+}
+
 td, th {
 border: 1px solid #000000;
 padding: 10px;
