@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+caption {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table {
+    width: 500px;
+    height: 300px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr {
+    background-color:rgba(255, 255, 240, 0.616);
+}
+
+th {
+    background-color: #faebd7;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid;
+}
